@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dentro il computer</title>
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <style>
+            .footerimg{
+                width:15px;
+                height:15px;
+            }
+            .footerlinks{
+                font-family:'Manrope', sans-serif;
+                color:#F0EFF2;
+                text-decoration:none;
+            }
+            .footerpart{
+                font-family:'Manrope', sans-serif;
+                color:#F0EFF2;
+                font-size:15px;
+                display:flex;
+                flex-direction:row;
+                justify-content: center;
+                gap:30px;
+                padding:10px;
+                margin-top:115px;
+                align-items:center;
+            }
+            body{
+                font-family:'Manrope', sans-serif;
+            }
+            .background{
+                background-color:#17141b;
+            }
+            .navlinks_main{
+                color:#F0EFF2;
+                text-decoration:none;
+            }
+            .navlinks{
+                color:#A5A3A8;
+                text-decoration:none;
+            }
+            .Logo{
+                color:#F0EFF2;
+            }
+            .navbar{
+                display:flex;
+                flex-direction:row;
+                gap:50px;
+                padding:10px;
+                margin-top:10px;
+                align-items:center;
+                border:1px solid #39343e;
+                border-radius:8px;
+                transition:0.3s ease;
+                background-color:#1b181e;
+            }
+            .brand{
+                display:flex;
+                align-items:center;
+                gap:15px;
+            }
+            .GitHub {
+                display:flex;
+                align-items:center;
+                gap:15px;
+                margin-left:auto;
+            }
+            .navlinks {
+                display:flex;
+                align-items:center;
+                gap: 50px;
+            }
+            .Title{
+                font-size:72px;
+                color:#F0EFF2;
+            }
+            .first{
+                display:flex;
+                flex-direction:row;
+                align-items:flex-start;
+                margin-top:50px;
+                gap:40px;
+            }
+            .MainPageText{
+                width:40%;
+                padding-left:15px;
+            }
+            .MainPagePhoto{
+                width:60%;
+            }
+            .MainPagePhoto img{
+                width:100%;
+            }
+            .UnderTitle{
+                font-size:24px;
+                color:#A5A3A8;
+            }
+            .githublogo{
+                width:30px;
+                height:30px;
+            }
+            .teamlogo{
+                width:30px;
+                height:30px;
+            }
+            .widgets {
+                display:grid;
+                grid-template-columns:repeat(2, 1fr);
+                gap:25px;
+                margin-top:35px;
+            }
+
+            .widget {
+                position:relative;
+                display:flex;
+                flex-direction:column;
+                justify-content:space-between;
+                min-height:150px;
+                padding:25px;
+                background-color:#1b181e;
+                border:1px solid #39343e;
+                border-radius:8px;
+                text-decoration:none;
+                color:#F0EFF2;
+                transition:0.3s ease;
+            }
+
+            .widget h2 {
+                font-size:25px;
+                margin:0 0 15px 0;
+                color:#F0EFF2;
+            }
+
+            .widget p {
+                font-size:16px;
+                line-height:1.5;
+                color:#A5A3A8;
+                margin:0;
+            }
+
+            .widget-arrow {
+                align-self:flex-end;
+                font-size:25px;
+                color:#F0EFF2;
+                transition:0.3s ease;
+            }
+
+            .widget:hover {
+                border-color:#8c8795;
+                background-color:#211d25;
+                transform:translateY(-4px);
+            }
+
+            .widget:hover .widget-arrow {
+                transform:translateX(5px);
+            }
+        </style>
+    </head>
+    <body class="background">
+        <nav class="navbar">
+            <div class="brand">
+                <a href="#">
+                    <img src="images/Untitled.png" class="teamlogo">
+                </a>
+                <p class="navlinks_main">CASTEDDU</p>
+            </div>
+            <div class="navlinks">
+                <a href="#" class="navlinks_main">HOME PAGE</a>
+                <a href="autopsia.html" class="navlinks">AUTOPSIA DEL PC</a>
+                <a href="sis.html" class="navlinks">DAL SISTEMA AL ISTRUZIONE</a>
+                <a href="ciclo.html" class="navlinks">CICLO</a>
+                <a href="ambiente.html" class="navlinks">IMPATTO SULL'AMBIENTE</a>
+                <a href="prompt.html" class="navlinks">PROMPT</a>
+                <a href="ruoli.html" class="navlinks">RUOLI</a>
+                <a href="mailto:s-shelkunov.grigorii@isiskeynes.it" class="navlinks">CONTACT</a>
+            </div>
+            <div class="GitHub">
+                <a href="https://github.com/strixxed" target="_new" class="navlinks_main">VISIT OUR GITHUB</a>
+                <a href="https://github.com/strixxed" target="_new">
+                    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Github_logo_svg.svg/960px-Github_logo_svg.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20230420150203" class="githublogo">
+                </a>
+            </div>
+        </nav>
+        <main>
+            <section class="first">
+                <div class="MainPageText">
+                    <p class="Title">Dentro il Computer: dall'Autopsia all'Istruzione</p>
+                    <p class="UnderTitle">Questo è un progetto del gruppo Casteddu per Educazione Civica. Abbiamo realizzato un sito web dove potrete scoprire quali sono i principali componenti
+                        di un computer, come funzionano e cosa succede all'interno del vostro PC dal momento in cui premete il pulsante di accensione fino all'avvio dei primi programmi.
+                        Buona navigazione! 😊<br>      <br>  <br></p>
+                    <div class="widgets">
+                        <a href="autopsia.html" class="widget">
+                            <h2>Autopsia del PC</h2>
+                            <p>Scopri i componenti principali di un computer
+                            e come funzionano.</p>
+                            <span class="widget-arrow">→</span>
+                        </a>
+                        <a href="sis.html" class="widget">
+                            <h2>Dal sistema all'istruzione</h2>
+                            <p>Scopri cosa succede all'interno del computer
+                            durante l'avvio.</p>
+                            <span class="widget-arrow">→</span>
+                        </a>
+                        <a href="ciclo.html" class="widget">
+                            <h2>Il ciclo del computer</h2>
+                            <p>Il percorso dal pulsante di accensione
+                            fino all'avvio.</p>
+                            <span class="widget-arrow">→</span>
+                        </a>
+                        <a href="ambiente.html" class="widget">
+                            <h2>Impatto sull'ambiente</h2>
+                            <p>Scopri l'impatto della tecnologia
+                            sul nostro ambiente.</p>
+                            <span class="widget-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="MainPagePhoto">
+                    <img src="images/PC.png">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <nav class="footerpart">
+                <a href="#" class="footerlinks">
+                    <img src="images/Untitled.png" class="footerimg">
+                    &copy; 2026 OOO"Nenaebalovo". All rights reserved.
+                </a>
+                <a href="mailto:s-shelkunov.grigorii@isiskeynes.it" class="footerlinks">
+                    <img src="images/mail1.png" class="footerimg">
+                    Contact Mail
+                </a>
+                <a href="https://github.com/strixxed" target="_new" class="footerlinks">
+                    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Github_logo_svg.svg/960px-Github_logo_svg.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20230420150203" class="footerimg">
+                    Creator's GitHub
+                </a>
+                <a href="https://github.com/strixxed/computer_construction_site" target="_new" class="footerlinks">
+                    <img src="images/rep.png" class="footerimg">
+                    Project's Repository
+                </a>
+            </nav>
+        </footer>
+    </body>
+</html>
